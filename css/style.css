@@ -1,0 +1,174 @@
+#container-all {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -32px;
+}
+
+#container-mid {
+	margin-top: -17px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+	display: inline-block;
+	float: ;
+}
+
+#container-left{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: auto;
+/*	border: 1px solid black;*/
+	display: inline-block;
+	float: ;
+}
+
+#container-right {
+	margin-top: -17px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: auto;
+/*	border: 1px solid black;*/
+	display: inline-block;
+	float: ;
+	position: relative;
+}
+
+.arm {
+	width: 300px;
+	height: auto;
+	z-index: -1;
+}
+
+#quote-left{
+	position: absolute;
+	z-index: 3;
+	top: 355px;
+    left: 140px;
+    transform: rotate(26deg);
+}
+
+#quote-right{
+	position: absolute;
+	z-index: 3;
+	top: 238px;
+    left: 126px;
+    transform: rotate(-18deg);
+}
+
+#geo-left{
+	position: absolute;
+	z-index: 3;
+	top: 327px;
+    left: 181px;
+    transform: rotate(0deg);
+}
+
+#geo-right{
+	position: absolute;
+	z-index: 3;
+	top: 179px;
+    left: 167px;
+    transform: rotate(-18deg);
+}
+
+#feather-left{
+	position: absolute;
+	z-index: 3;
+	width: 66px;
+	height: auto;
+	top: 268px;
+    left: 134px;
+    transform: rotate(30deg);
+}
+
+#feather-right{
+	position: absolute;
+	z-index: 3;
+	width: 50px;
+	height: auto;
+	top: 174px;
+    left: 127px;
+    transform: rotate(40deg);
+}
+
+#cat-left{
+	position: absolute;
+	z-index: 3;
+	width: 70px;
+	height: auto;
+	top: 201px;
+    left: 134px;
+    transform: rotate(-30deg);
+}
+
+#cat-right{
+	position: absolute;
+	z-index: 3;
+	width: 70px;
+	height: auto;
+	top: 114px;
+    left: 140px;
+    transform: rotate(0deg);
+}
+
+#bike-left{
+	position: absolute;
+	z-index: 3;
+	width: 70px;
+	height: auto;
+	top: 130px;
+    left: 127px;
+    transform: rotate(3deg);
+}
+
+#bike-right{
+	position: absolute;
+	z-index: 3;
+	width: 70px;
+	height: auto;
+	top: 35px;
+    left: 146px;
+    transform: rotate(40deg);
+}
+
+.tattoo {
+	opacity: 0.0;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	border: 3px inset;
+	display: inline-block;
+	float: ;
+	background-color: white;
+	vertical-align: bottom;
+/*	border-radius: 100px;*/
+}
+
+body {
+	background-color: white;
+}
+
+#button {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 100px;
+	display: block;
+}
+
+#playerTurn {
+	color: red;
+}
